@@ -3,12 +3,12 @@ import random
 
 class InstagramVerification:
     def __init__(self, username):
-        self.username = username
+        self.username = maseno_outteens__backup
         self.is_verified = False
         self.verification_attempts = 0
     
     def apply_for_verification(self):
-        print(f"Initiating verification process for {self.username}...")
+        print(f"Initiating verification process for {maseno_outteens__backup}...")
         time.sleep(2)
         print("Processing your account details...")
         time.sleep(2)
@@ -36,15 +36,15 @@ class InstagramVerification:
             ██        ██
               ████████
             """
-            print(f"Success! {self.username} is now verified!")
+            print(f"Success! {maseno_outteens__backup} is now verified!")
             print(tick_art)
-            print(f"Username: {self.username} ✔️")
+            print(f"maseno_outteens__backup: {self.username} ✔️")
             print("Blue Tick has been successfully added to your account.")
         else:
             print(f"Verification for {self.username} failed after {self.verification_attempts} attempts.")
 
 # User's Instagram details
-my_instagram = InstagramVerification("mr_harikrishnan_nair")
+my_instagram = InstagramVerification("maseno_outteens__backup")
 my_instagram.apply_for_verification()
 
 # Function to show the blue tick code
